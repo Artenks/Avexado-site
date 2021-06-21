@@ -177,7 +177,7 @@ body {
 .BackgroundMaps i {
   position: relative;
   right: -29rem;
-  top: -2rem;
+  top: -2.5rem;
 }
 .BackgroundMaps #maps-exit {
   font-size: 2rem;
@@ -569,6 +569,9 @@ body::-webkit-scrollbar-thumb {
     opacity: 1;
     display: flex;
   }
+  .BackgroundMaps i {
+    right: -20rem;
+  }
   .GoogleMaps{
     opacity: 0;
     display: none;
@@ -589,5 +592,9 @@ body::-webkit-scrollbar-thumb {
   .GoogleMaps500{
     opacity: 1;
     display: flex;
+  }
+  .BackgroundMaps i {
+    right: -14rem;
+    top: -2.3rem
   }
 }
