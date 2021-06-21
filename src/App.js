@@ -103,7 +103,6 @@ function App() {
 
             <div className="AsideBar" id="aside-bar">
               <div className="InfoMy">
-                {/* <h3>Desenvolvido por Artenks</h3> */}
                 <ul className="MyUl">
                   <a href="https://twitter.com/Artenks">
                     <i
