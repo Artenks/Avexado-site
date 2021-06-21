@@ -1,6 +1,7 @@
 import "./App.css";
 import "./Click.js";
 import "./AutoScroll.js";
+import Iframe from "react-iframe";
 
 function App() {
   return (
@@ -28,11 +29,13 @@ function App() {
                   ></i>
                 </a>
 
-                <i
-                  className="fas fa-hamburger"
-                  id="HamburgerLogo"
-                  alt="hamburguer logo"
-                ></i>
+                <div className="btnClick" id="btn#3">
+                  <i
+                    className="fas fa-compass"
+                    id="compassLogo"
+                    alt="bussola logo"
+                  ></i>
+                </div>
 
                 <a href="https://m.facebook.com/Avexado-Hamb%C3%BArgueria-e-Pizzaria-112016044005224/">
                   <i
@@ -43,11 +46,52 @@ function App() {
                 </a>
               </ul>
             </div>
+            <div className="BannerMovement">
+              <h1>🥤 😍 😏 🍔</h1>
+              <h3>#Avexado10</h3>
+              <h1>🍕 😋 👌 🤭</h1>
+            </div>
+
+            <div className="Loc">
+              <div className="BackgroundMaps">
+                <h1>Localização do Avexado 🍔</h1>
+                <div className="ExitClick" id="btn#4">
+                  <i className="fas fa-times" id="maps-exit"></i>
+                </div>
+                <div className="GoogleMaps">
+                  <Iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3968.353068353936!2d-35.28057704893343!3d-5.945987160109551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b259eb9b3dc3a3%3A0x87de7b43e48379b0!2sAvexado%20Pizzaria%20e%20Hamburgueria!5e0!3m2!1spt-BR!2sbr!4v1624281061453!5m2!1spt-BR!2sbr"
+                    width="800"
+                    height="600"
+                    allowfullscreen=""
+                    loading="lazy"
+                  ></Iframe>
+                </div>
+                <div className="GoogleMapsMobile">
+                  <Iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3968.353068353936!2d-35.28057704893343!3d-5.945987160109551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b259eb9b3dc3a3%3A0x87de7b43e48379b0!2sAvexado%20Pizzaria%20e%20Hamburgueria!5e0!3m2!1spt-BR!2sbr!4v1624281061453!5m2!1spt-BR!2sbr"
+                    width="500"
+                    height="700"
+                    allowfullscreen=""
+                    loading="lazy"
+                  ></Iframe>
+                </div>
+                <div className="GoogleMaps500">
+                  <Iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3968.353068353936!2d-35.28057704893343!3d-5.945987160109551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b259eb9b3dc3a3%3A0x87de7b43e48379b0!2sAvexado%20Pizzaria%20e%20Hamburgueria!5e0!3m2!1spt-BR!2sbr!4v1624281061453!5m2!1spt-BR!2sbr"
+                    width="500"
+                    height="500"
+                    allowfullscreen=""
+                    loading="lazy"
+                  ></Iframe>
+                </div>
+              </div>
+            </div>
 
             <div className="ListPage">
               <div className="InfoBlock">
                 <a href="#anc1">
-                  <h3>Novidades 🍕</h3>
+                  <h3>Novidades</h3>
                 </a>
 
                 <div className="ArrowDown">
