@@ -47,9 +47,9 @@ function App() {
               </ul>
             </div>
             <div className="BannerMovement">
-              <h1>🥤 😍 😏 🍔</h1>
+              <h1>🥤 😍 😏 🍕</h1>
               <h3>#Avexado10</h3>
-              <h1>🍕 😋 👌 🤭</h1>
+              <h1>🍔 😋 👌 🤭</h1>
             </div>
 
             <div className="Loc">
@@ -103,7 +103,7 @@ function App() {
                 <div className="BlockOffer">
                   <div id="img-wrapper">
                     <img
-                      src="./images/avexado/offers/offer1.jpg"
+                      src="./images/avexado/offers/offer1.png"
                       alt="Bloco de promoção"
                     />
                   </div>
@@ -113,7 +113,7 @@ function App() {
                 <div className="BlockOffer">
                   <div id="img-wrapper">
                     <img
-                      src="./images/avexado/offers/offer2.jpg"
+                      src="./images/avexado/offers/offer2.png"
                       alt="Bloco de promoção"
                     />
                   </div>
@@ -123,7 +123,7 @@ function App() {
                 <div className="BlockOffer">
                   <div id="img-wrapper">
                     <img
-                      src="./images/avexado/offers/offer3.jpg"
+                      src="./images/avexado/offers/offer3.png"
                       alt="Bloco de promoção"
                     />
                   </div>

@@ -23,5 +23,5 @@ import $ from "jquery";
       });
       // JS/>
     }
-  }, 10);
+  }, 1);
 })(window, document);
