@@ -13,7 +13,7 @@ function App() {
               <div id="img-wrapper">
                 <img
                   id="avexado"
-                  src="./images/avexado/avexado-logo.jpg"
+                  src="./images/avexado/avexado-icon.png"
                   alt="imagem do avexado"
                 ></img>
               </div>
